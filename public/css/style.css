@@ -1,0 +1,54 @@
+/* Style général pour les cartes */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px; /* Espace entre les cartes */
+}
+
+/* Effet de survol sur les cartes */
+.card:hover {
+    transform: scale(1.05); /* Agrandit légèrement la carte */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ajoute une ombre */
+}
+
+/* Style pour les images */
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 100px; /* Hauteur fixe pour les images (réduite) */
+    object-fit: cover; /* Ajuste l'image sans déformation */
+}
+
+/* Style pour le texte des cartes */
+.card-body {
+    padding: 15px;
+    text-align: center;
+}
+
+/* Style pour les prix */
+.card-text {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.card-text .text-muted {
+    font-size: 0.9em;
+}
+
+.card-text .text-danger {
+    font-weight: bold;
+}
+
+/* Style pour le bouton */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
